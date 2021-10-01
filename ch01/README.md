@@ -28,4 +28,4 @@
   - Hardware : Category = 'Phone', Name = 'Pixel 3a'
   - Image : API Level = '29', ABI = 'x86_64', Target = 'Android 10.0(Google APIs)'
   - Graphics : 'Software'
-  - 
+  - unlock 'Enabled Device Frame'
