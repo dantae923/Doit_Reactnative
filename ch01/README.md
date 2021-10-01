@@ -4,7 +4,7 @@
 
 ## 설치 순서 (Windows PowerShell 관리자 모드로 실행하여 아래 명령어 순서대로 입력)
   1. Set-ExecutionPolicy RemoteSigned -scope CurrenUser
-  2. $env:SCOOP='C:\Scoop' (혹은 [시스템 환경 변수 편집]에서 환경 변수 "이름: SCOOP, 값: c:\Scoop" 으로 새로 만들기)
+  2. $env:SCOOP='C:\Scoop'
   3. iex (new-object net.webclient).downloadstring('https://get.scoop.sh)'  
   -------------------------- Scoop install complete --------------------------
   4. scoop install nodejs-lts  
