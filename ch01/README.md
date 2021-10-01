@@ -2,7 +2,7 @@
 
 ㆍ설치 툴 및 개발환경 : Windows 10 , Scoop, Node.js v14.15.1 ↑, Java8 JDK v1.8.0_265 ↑, VSCode, Android Studio v4.1.1 ↑, Typescript
 
-ㆍ설치 순서 (Windows PowerShell 관리자 모드로 실행하여 아래 명령어 순서대로 입력)
+## 설치 순서 (Windows PowerShell 관리자 모드로 실행하여 아래 명령어 순서대로 입력)
   1. Set-ExecutionPolicy RemoteSigned -scope CurrenUser
   2. $env:SCOOP='C:\Scoop' (혹은 [시스템 환경 변수 편집]에서 환경 변수 "이름: SCOOP, 값: c:\Scoop" 으로 새로 만들기)
   3. iex (new-object net.webclient).downloadstring('https://get.scoop.sh)'  
@@ -22,3 +22,10 @@
   -------------------------- Android Studio install complete --------------------------
   13. npm i -g typescript ts-node  
   -------------------------- Typescript install complete --------------------------
+
+
+## Setting Android Emulator
+  - Hardware : Category = 'Phone', Name = 'Pixel 3a'
+  - Image : API Level = '29', ABI = 'x86_64', Target = 'Android 10.0(Google APIs)'
+  - Graphics : 'Software'
+  - 
