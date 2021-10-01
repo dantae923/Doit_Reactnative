@@ -18,3 +18,7 @@
   10. cd c:\scoop\apps\vscode\current
   11. ./vscode-install-context.reg  
   -------------------------- VSCode install complete --------------------------
+  12. scoop install android-studio android-sdk  
+  -------------------------- Android Studio install complete --------------------------
+  13. npm i -g typescript ts-node  
+  -------------------------- Typescript install complete --------------------------
