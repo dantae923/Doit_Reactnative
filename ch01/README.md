@@ -1,8 +1,8 @@
-# Chapter 01 리액트 네이티브 개발 환경 갖추기
+# Chapter 01 Setting up the development environment of React Native
 
-ㆍ설치 툴 및 개발환경 : Windows 10 , Scoop, Node.js v14.15.1 ↑, Java8 JDK v1.8.0_265 ↑, VSCode, Android Studio v4.1.1 ↑, Typescript
+ㆍTools & Development Environment : Windows 10 , Scoop, Node.js v14.15.1 ↑, Java8 JDK v1.8.0_265 ↑, VSCode, Android Studio v4.1.1 ↑, Typescript
 
-## 설치 순서 (Windows PowerShell 관리자 모드로 실행하여 아래 명령어 순서대로 입력)
+## Install the environment (run the commands below in order on [Windows PowerShell] admin mode)
   1. Set-ExecutionPolicy RemoteSigned -scope CurrenUser
   2. $env:SCOOP='C:\Scoop'
   3. iex (new-object net.webclient).downloadstring('https://get.scoop.sh)'  
