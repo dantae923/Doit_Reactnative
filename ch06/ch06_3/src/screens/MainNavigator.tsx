@@ -19,7 +19,7 @@ export default function MainNavigator(){
         sequence: Sequence,
         parallel: Parallel,
         stagger: Stagger,
-        exterExit: EnterExit
+        enterExit: EnterExit
     })
 
     return (
