@@ -61,9 +61,9 @@ const PersonParallel: FC<PersonProps> = ({person, deletePressed}) => {
                 <Text numberOfLines={3} ellipsizeMode="tail" style={[styles.text, styles.comments]}>{person.comments}</Text>
                 <Image style={[styles.image]} source={{uri: person.image}}></Image>
                 <View style={[styles.countsView]}>
-                    <AnimatedIcon style={leftIconStyle} name="comment" size={24} color={Colors.blue500}></AnimatedIcon>
-                    <AnimatedIcon style={centerIconStyle} name="twitter-retweet" size={24} color={Colors.purple500}></AnimatedIcon>
-                    <AnimatedIcon style={rightIconStyle} name="heart" size={24} color={Colors.red500}></AnimatedIcon>
+                    <AnimatedIcon style={[leftIconStyle]} name="comment" size={24} color={Colors.blue500}></AnimatedIcon>
+                    <AnimatedIcon style={[centerIconStyle]} name="twitter-retweet" size={24} color={Colors.purple500}></AnimatedIcon>
+                    <AnimatedIcon style={[rightIconStyle]} name="heart" size={24} color={Colors.red500}></AnimatedIcon>
                 </View>
             </View>
         </View>
