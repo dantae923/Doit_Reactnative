@@ -3,7 +3,7 @@ import {StyleSheet, View, Text, Switch, FlatList} from 'react-native'
 import {useTheme} from 'react-native-paper'
 import {useToggleTheme} from '../contexts'
 import * as D from '../data'
-import Person from "./Person";
+import Person from "./PersonStagger";
 
 export default function People(){
     const [people, setPeople] = useState<D.IPerson[]>([])
